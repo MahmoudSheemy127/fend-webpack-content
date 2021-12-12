@@ -6,8 +6,8 @@ function handleSubmit(event) {
 
     // check what text was put into the form field
     let formText = document.getElementById('name').value
-    checkForName(formText)
-    console.log("::: Form Submitted :::")
+    // checkForName(formText)
+    console.log("::: Form Submittedd yes :::")
     fetch('http://localhost:8080/test')
     .then(res => res.json())
     .then(function(res) {
