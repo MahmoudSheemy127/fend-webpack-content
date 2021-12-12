@@ -1,6 +1,5 @@
- function handleSubmit(event) {
+export function handleSubmit(event) {
     event.preventDefault()
-
     // check what text was put into the form field
     let formText = document.getElementById('name').value
     checkForName(formText)
@@ -13,4 +12,4 @@
     })
 }
 
-export { handleSubmit }
+// export {handleSubmit}
